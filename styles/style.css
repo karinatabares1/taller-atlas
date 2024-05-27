@@ -5,16 +5,15 @@ body{
 
 .inicio{
     background-image: url("../assets/images/banner-bk.jpg");
-    background-position: center;
     padding: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-   
+   background-position: center;
 }
 
 .text_fondo{
-    max-width: 40%;
+    max-width:40% ;
     margin: 40px 70px;
     justify-content: flex-end;
     text-align: justify;
@@ -22,6 +21,15 @@ body{
 .word{
     font-family:sans-serif;
     font-size:  55px;
+}
+.ala{
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+   border-radius: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    display: flex;
 }
 .button{
     background-color: #34e991;
@@ -33,5 +41,51 @@ body{
 .logo{
     display: flex;
     justify-content: flex-start;
-
+   
 }
+.segundoTitulo{
+    padding: 60px 0;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .alo {
+    margin: 0 20px;
+    max-width: 300px;
+  }
+  .button2{
+    background-color: #090c25;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+.titulo2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.tercerTitulo{
+    padding: 60px 100px;
+    text-align:left;
+
+  }
+.compu{
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    position:absolute;
+    left: 1050PX;
+    height: 25rem;
+    width: 35rem;
+    top: 1380px;
+}
+.header{
+    width: 90%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
