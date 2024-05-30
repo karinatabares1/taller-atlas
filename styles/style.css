@@ -3,6 +3,16 @@ body{
     padding: 0;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header p{
+    margin-right: 80px;   
+}
+
 .inicio{
     background-image: url("../assets/images/banner-bk.jpg");
     padding: 100px;
@@ -18,19 +28,12 @@ body{
     justify-content: flex-end;
     text-align: justify;
 }
+
 .word{
     font-family:sans-serif;
     font-size:  55px;
 }
-.ala{
-    color: #fafafa;
-    padding: 10px 20px;
-    border: none;
-   border-radius: 20px;
-    text-decoration: none;
-    justify-content: flex-end;
-    display: flex;
-}
+
 .button{
     background-color: #34e991;
     color: rgb(0, 0, 0);
@@ -38,24 +41,37 @@ body{
     border: none;
     border-radius: 60px;
 }
+
 .logo{
-    display: flex;
-    justify-content: flex-start;
+  margin: 40px 70px;
+  width: 100px;
+  height: auto;
    
 }
+
 .segundoTitulo{
     padding: 60px 0;
     text-align: center;
-  }
-  .list {
+}
+
+.list {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-  }
-  .alo {
-    margin: 0 20px;
+}
+
+.alo {
+    margin: 100px 50px;
     max-width: 300px;
-  }
+    font-size: 40px;
+    
+}
+.ale{ 
+   
+    font-size: 2000px;
+       
+}
+
   .button2{
     background-color: #090c25;
     color: rgb(255, 255, 255);
@@ -63,29 +79,31 @@ body{
     border: none;
     border-radius: 60px;
 }
+
 .titulo2{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
+
 .tercerTitulo{
-    padding: 60px 100px;
+    padding: 150px 100px;
     text-align:left;
+    background: linear-gradient(160deg, #fff 50%, #34e991 0);
+}
 
-  }
-.compu{
-    margin: 0 20px;
+.text3{
+    width: 100%;
+}
+
+.p2{
+    color: #666;
+}
+
+.atla{
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    position:absolute;
-    left: 1050PX;
-    height: 25rem;
-    width: 35rem;
-    top: 1380px;
-}
-.header{
-    width: 90%;
-    font-family:Arial, Helvetica, sans-serif
+    justify-content: space-between;
 }
 
+.atla div, .atla img{
+    width: 45%;
+}
