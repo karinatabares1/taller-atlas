@@ -1,16 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
 }
 
 header p{
-    margin-right: 80px;   
+    margin-right: 80px;
 }
 
 .inicio{
@@ -22,16 +23,26 @@ header p{
    background-position: center;
 }
 
-.text_fondo{
+.titulo1{
     max-width:40% ;
     margin: 40px 70px;
     justify-content: flex-end;
     text-align: justify;
 }
 
-.word{
+.texto{
     font-family:sans-serif;
     font-size:  55px;
+}
+
+.icono{
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    display: flex;
 }
 
 .button{
@@ -40,39 +51,36 @@ header p{
     padding: 15px 40px;
     border: none;
     border-radius: 60px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .logo{
-  margin: 40px 70px;
-  width: 100px;
-  height: auto;
+    margin: 40px 70px;
+    width: 100px;
+    height: auto;
    
 }
 
 .segundoTitulo{
     padding: 60px 0;
     text-align: center;
-}
-
-.list {
+    
+  }
+  
+.container {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-}
+  }
 
-.alo {
+.img {
     margin: 100px 50px;
     max-width: 300px;
-    font-size: 40px;
     
-}
-.ale{ 
-   
-    font-size: 2000px;
-       
-}
+  }
 
-  .button2{
+  .button2 {
     background-color: #090c25;
     color: rgb(255, 255, 255);
     padding: 15px 40px;
@@ -80,18 +88,36 @@ header p{
     border-radius: 60px;
 }
 
+.tercerTitulo{
+    padding: 10px 100px;
+    text-align: left;
+    background: linear-gradient(164deg, #fff 40%, #34e991 0);
+    
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0; 
+}
+
+.container1 div, .container1 img{
+    width: 45%;
+}
+
 .titulo2{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tercerTitulo{
-    padding: 150px 100px;
-    text-align:left;
-    background: linear-gradient(160deg, #fff 50%, #34e991 0);
+.titulo21{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
 }
 
-.text3{
+.texto3{
     width: 100%;
 }
 
@@ -99,11 +125,215 @@ header p{
     color: #666;
 }
 
-.atla{
-    display: flex;
-    justify-content: space-between;
+.feature-2 {
+    margin: 90px;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    top: 8px;
 }
 
-.atla div, .atla img{
-    width: 45%;
+
+.cuartoTitulo {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    
+}
+
+.cuartoTitulo h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.startup{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.startup h3, .containerColor h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.containerColor{
+    background-color: #002750;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 10px; 
+
+}
+
+.button3 {
+    padding: 15px 40px;
+    color: #000;
+    border: none;
+    border-radius: 60px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+
+.button4{
+    background-color: #34e991;
+    padding: 15px 40px;
+    color: #000;
+    border: none;
+    border-radius: 60px;
+    margin-top: 20px; 
+    border: 1px solid #34e991;
+    font-weight: bold;
+}
+
+span {
+    font-size: 70px;
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ebeaea;
+    padding: 40px 0;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cliente {
+    margin: 0 10px;
+    max-height: 50px;
+}
+  
+.formulario{
+    background-image: url("../assets/images/contact-bk.jpg");
+    height: 500px;
+    width: 100 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    color: rgb(255, 255, 255);
+}
+  
+.titulo3{
+    font-size: 3rem;
+    margin: 10px, 0px;
+}
+  
+.contact-info{
+    max-width:80% ;
+    margin: 70px;
+    justify-content: flex-start;
+    text-align: justify;
+}
+    
+.formulario1 {
+    background-color: transparent;
+    margin: 15px;
+    padding: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    width: 100%;
+}
+    
+.formulario2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+    
+.formulario3 {
+    width: 48%;
+    margin-right: 7%; 
+}
+    
+.formulario3:last-child {
+    margin-right: 0; 
+}
+    
+.form-input {
+    padding: 10px;
+    border: 2px solid rgb(0, 247, 164);
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+}
+    
+textarea.form-input {
+    width: 210%;
+    height: 90px;
+    resize: vertical;
+    background-color: transparent;
+    color: #333;
+}
+    
+.submit-button {
+    background-color: rgb(0, 247, 164);
+    color: rgb(12, 12, 12);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 107%;
+}
+    
+.submit-button:hover {
+    background-color:  rgb(0, 247, 164);
+}
+
+.Message{
+    color:rgb(0, 247, 164);
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #002750;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+}
+
+.copy {
+    margin: 0;
+    padding-left: 20px; 
+}
+
+.social {
+    display: flex;
+    padding-right: 20px; 
+}
+
+.social img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 60%; 
+    background-color: #fff; 
+    padding: 5px; 
 }
