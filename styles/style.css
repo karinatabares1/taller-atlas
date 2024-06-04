@@ -623,14 +623,14 @@ textarea.form-input {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        padding: 10px 5px; /* Reducido el espaciado interno */
+        padding: 10px 5px; 
         margin-bottom: 20px;
     }
 
     .formulario1, .formulario2, .formulario3 {
         width: 100%;
-        padding: 0 5px; /* Reducido el espaciado interno */
-        margin-bottom: 2px; /* Reducido el espaciado inferior */
+        padding: 0 5px; 
+        margin-bottom: 2px;
     }
 
     .formulario2 {
@@ -640,29 +640,29 @@ textarea.form-input {
     }
 
     .form-input {
-        width: calc(50% - 2px); /* Reducido el ancho de los campos */
-        margin-bottom: 1px; /* Reducido el espaciado inferior */
-        padding: 2px; /* Reducido el espaciado interno */
-        font-size: 8px; /* Reducido el tamaño de la fuente */
+        width: calc(50% - 2px); 
+        margin-bottom: 1px;
+        padding: 2px; 
+        font-size: 8px;
     }
 
     textarea.form-input {
         width: 100%;
         height: 20%;
         resize: vertical;
-        font-size: 8px; /* Reducido el tamaño de la fuente */
+        font-size: 8px;
     }
 
     .submit-button {
         width: 100%;
-        margin-top: 5px; /* Reducido el espaciado superior */
-        padding: 4px; /* Reducido el espaciado interno */
-        font-size: 8px; /* Reducido el tamaño de la fuente */
+        margin-top: 5px; 
+        padding: 4px; 
+        font-size: 8px;
     }
 
     
 
     .contact-info h1 {
-        font-size: 0.8rem; /* Reducido el tamaño de la letra */
+        font-size: 0.8rem; 
     }
 }
