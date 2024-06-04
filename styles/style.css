@@ -372,6 +372,7 @@ textarea.form-input {
         justify-content: space-between;
         padding: 1vh;
         background-color: #dfdcdc;
+        width: 98%;
     }
 
     .cliente {
@@ -397,7 +398,7 @@ textarea.form-input {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 776px) {
     header p {
         margin-right: 20px;
     }
@@ -409,6 +410,12 @@ textarea.form-input {
     .img {
         margin: 50px 20px;
         max-width: 80%;
+    }
+
+    body{
+        margin: -8px;
+        padding: 0;
+        font-family:Arial, Helvetica, sans-serif
     }
 
     .container1 {
@@ -441,43 +448,72 @@ textarea.form-input {
         justify-content: center;
     }
 
+   
+
+    .final {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
     .formulario1 {
         padding: 30px;
     }
 }
 
 @media screen and (max-width: 480px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
+
     header {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 0 10px; 
     }
 
     header p {
         margin: 10px 0;
+        text-align: center;
+        width: 100%;
     }
 
     .titulo1 {
-        max-width: 100%;
-        padding: 0 20px;
+        width: 100%;
+        padding: 0 10px; 
+        text-align: center;
     }
 
     .container {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 0 10px; 
+    }
+    .form-input {
+    padding: inherit;
     }
 
     .img {
         margin: 20px 0;
-        max-width: 100%;
+        width: 100%;
     }
 
     .container1 {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        padding: 0 20px;
+        padding: 0 10px; 
+    }
+
+    .formulario {
+        padding: 8px 9px;
+        width: 100%; 
+        box-sizing: border-box; 
     }
 
     .container1 div, .container1 img {
@@ -487,31 +523,33 @@ textarea.form-input {
 
     .titulo2, .titulo21 {
         font-size: 40px;
-        padding: 0 20px;
+        padding: 0 10px; 
         text-align: center;
     }
 
     .feature-2 {
         width: 100%;
-        max-width: 100%;
         margin: 10px 0;
     }
 
     .tercerTitulo {
         padding: 20px;
         background: linear-gradient(164deg, #34e991 50%, #090c25 50%);
+        width: 100%; 
+        box-sizing: border-box; 
     }
 
     .container2 {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 0 10px; 
     }
 
     .startup, .containerColor {
         width: 100%;
         margin: 10px 0;
-        padding: 0 20px;
+        padding: 0 10px; 
     }
 
     .clientes {
@@ -530,9 +568,13 @@ textarea.form-input {
         width: 100%;
     }
 
-    .texto{
-        font-family:sans-serif;
-        font-size:  20px;
+    .texto {
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 0 10px; 
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .cliente {
@@ -545,118 +587,82 @@ textarea.form-input {
         flex-direction: column;
         text-align: center;
         width: 100%;
+        padding: 0 10px; 
     }
 
     .copy, .social {
         padding: 10px;
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 352px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    header p {
-        margin: 10px 0;
-    }
-
-    .titulo1 {
-        max-width: 100%;
-        padding: 0 10px;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .img {
-        margin: 10px 0;
-        max-width: 100%;
-    }
-
-    .container1 {
-        padding: 0 10px;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .container1 div, .container1 img {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .titulo2, .titulo21 {
-        font-size: 30px;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    .feature-2 {
-        width: 100%;
-        max-width: 100%;
-        margin: 10px 0;
-    }
-
-    .tercerTitulo {
-        padding: 20px;
-        background: linear-gradient(164deg, #34e991 50%, #090c25 50%);
-    }
-
-    .container2 {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    .startup, .containerColor {
-        width: 100%;
-        margin: 10px 0;
-        padding: 0 10px;
-    }
-
-    .clientes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        background-color: #dfdcdc;
-        width: 100%;
-    }
-
-    .imagenes {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .cliente {
-        margin: 5px;
-        max-height: 30px;
-        width: auto;
-    }
-
-    .final {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-
-    .copy, .social {
-        padding: 10px;
-        width: 100%;
+        box-sizing: border-box; 
     }
 
     .social img {
         width: 30px;
         height: 30px;
+    }
+
+    .imgGrande {
+        width: 100%;
+        height: auto; 
+        margin: 0;
+        padding: 0;
+    }
+
+    .lineaVerde {
+        width: 100%;
+        background-color: green;
+        height: 5px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    
+        .contact-info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 5px; /* Reducido el espaciado interno */
+        margin-bottom: 20px;
+    }
+
+    .formulario1, .formulario2, .formulario3 {
+        width: 100%;
+        padding: 0 5px; /* Reducido el espaciado interno */
+        margin-bottom: 2px; /* Reducido el espaciado inferior */
+    }
+
+    .formulario2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .form-input {
+        width: calc(50% - 2px); /* Reducido el ancho de los campos */
+        margin-bottom: 1px; /* Reducido el espaciado inferior */
+        padding: 2px; /* Reducido el espaciado interno */
+        font-size: 8px; /* Reducido el tamaño de la fuente */
+    }
+
+    textarea.form-input {
+        width: 100%;
+        height: 20%;
+        resize: vertical;
+        font-size: 8px; /* Reducido el tamaño de la fuente */
+    }
+
+    .submit-button {
+        width: 100%;
+        margin-top: 5px; /* Reducido el espaciado superior */
+        padding: 4px; /* Reducido el espaciado interno */
+        font-size: 8px; /* Reducido el tamaño de la fuente */
+    }
+
+    
+
+    .contact-info h1 {
+        font-size: 0.8rem; /* Reducido el tamaño de la letra */
     }
 }
