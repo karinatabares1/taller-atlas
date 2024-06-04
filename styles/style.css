@@ -32,7 +32,7 @@ header p{
 
 .texto{
     font-family:sans-serif;
-    font-size:  55px;
+    font-size:  50px;
 }
 
 .icono{
@@ -77,7 +77,6 @@ header p{
 .img {
     margin: 100px 50px;
     max-width: 300px;
-    
   }
 
   .button2 {
@@ -92,7 +91,6 @@ header p{
     padding: 10px 100px;
     text-align: left;
     background: linear-gradient(164deg, #fff 40%, #34e991 0);
-    
 }
 
 .container1{
@@ -133,18 +131,15 @@ header p{
     top: 8px;
 }
 
-
 .cuartoTitulo {
     text-align: center;
     padding: 60px 0;
-    background-color: #f9f9f9;
-    
+    background-color: #f9f9f9;    
 }
 
 .cuartoTitulo h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    
 }
 
 .container2 {
@@ -173,7 +168,6 @@ header p{
     width: 250px;
     text-align: center;
     margin: 0 10px; 
-
 }
 
 .button3 {
@@ -336,4 +330,333 @@ textarea.form-input {
     border-radius: 60%; 
     background-color: #fff; 
     padding: 5px; 
+}
+@media screen and (max-width: 920px) {
+    .inicio {
+        padding: 50px;
+    }
+
+    .titulo1 {
+        max-width: 50%;
+    }
+
+    .container1 {
+        display: flex;
+        margin: 20px;
+        justify-content: space-between;
+    }
+
+    .container1 div, .container1 img {
+        width: 55%;
+        height: 30%;
+        margin: 10px 0;
+    }
+
+    .feature-2 {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .startup, .containerColor {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .clientes {
+        display: flex;
+        justify-content: space-between;
+        padding: 1vh;
+        background-color: #dfdcdc;
+    }
+
+    .cliente {
+        margin: 5px;
+        margin-right: 10px;
+    }
+
+    .contact-info {
+        max-width: 80%;
+        margin: 30px;
+        justify-content: flex-start;
+        text-align: justify;
+    }
+
+    .titulo3 {
+        font-size: 2rem;
+        margin: 0px 20px;
+    }
+    
+    .texto{
+        font-family:sans-serif;
+        font-size:  40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header p {
+        margin-right: 20px;
+    }
+
+    .titulo1 {
+        max-width: 70%;
+    }
+
+    .img {
+        margin: 50px 20px;
+        max-width: 80%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        display: flex;
+        margin: 40px 10px 0;
+    }
+
+    .container1 div, .container1 img {
+        width: 55%;
+        height: 55%;
+    }
+
+    .titulo2, .titulo21 {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    .container2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        margin-top: 80px;
+    }
+
+    .startup, .containerColor {
+        width: 90%;
+        align-content: space-between;
+        justify-content: center;
+    }
+
+    .formulario1 {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    header p {
+        margin: 10px 0;
+    }
+
+    .titulo1 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .img {
+        margin: 20px 0;
+        max-width: 100%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .container1 div, .container1 img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .titulo2, .titulo21 {
+        font-size: 40px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .feature-2 {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .tercerTitulo {
+        padding: 20px;
+        background: linear-gradient(164deg, #34e991 50%, #090c25 50%);
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .startup, .containerColor {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+
+    .clientes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #dfdcdc;
+        width: 100%;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .texto{
+        font-family:sans-serif;
+        font-size:  20px;
+    }
+
+    .cliente {
+        margin: 5px;
+        max-height: 50px;
+        width: auto;
+    }
+
+    .final {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .copy, .social {
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    header p {
+        margin: 10px 0;
+    }
+
+    .titulo1 {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .img {
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .container1 {
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container1 div, .container1 img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .titulo2, .titulo21 {
+        font-size: 30px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .feature-2 {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .tercerTitulo {
+        padding: 20px;
+        background: linear-gradient(164deg, #34e991 50%, #090c25 50%);
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .startup, .containerColor {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    .clientes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #dfdcdc;
+        width: 100%;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cliente {
+        margin: 5px;
+        max-height: 30px;
+        width: auto;
+    }
+
+    .final {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .copy, .social {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .social img {
+        width: 30px;
+        height: 30px;
+    }
 }
